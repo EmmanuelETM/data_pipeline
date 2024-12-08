@@ -54,10 +54,10 @@ git clone https://github.com/EmmanuelETM/data_pipeline.git
 
 #### Future Enhancements
 
-    CI/CD Integration: Automate testing, deployment, and promotion of changes across environments.
-    Data Quality Extensions: Use tools like Great Expectations or additional dbt tests to enhance data validation.
-    Enhanced Monitoring: Implement metrics dashboards for real-time pipeline performance and error tracking.
-    Cross-Cloud Capabilities: Leverage Snowflake’s multi-cloud features to expand the pipeline across different providers.
+- CI/CD Integration: Automate testing, deployment, and promotion of -changes across environments.
+- Data Quality Extensions: Use tools like Great Expectations or additional dbt tests to enhance data validation.
+- Enhanced Monitoring: Implement metrics dashboards for real-time pipeline performance and error tracking.
+- Cross-Cloud Capabilities: Leverage Snowflake’s multi-cloud features to expand the pipeline across different providers.
 
 
 
