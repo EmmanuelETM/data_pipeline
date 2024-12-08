@@ -16,20 +16,22 @@ This project implements a modern data pipeline leveraging dbt for SQL-based data
 ##### Step 1: Set Up a Python Virtual Environment
 
 1. Create a virutal environment:
+   
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 2. Install dbt dependencies:
+   
 ```bash
 pip install dbt-core dbt-snowflake
 ```
 
-##### Step 2: Initialize the Astro Project
+##### Step 2: Download Github Repo
 
-
-
-
+```bash
+git clone 
+```
 
 
 
