@@ -5,7 +5,7 @@ This project implements a data pipeline leveraging dbt for data transformation, 
 
 ---
 
-#### Techonologies
+#### Key Componentes
 
 - Snowflake: Acts as the cloud data warehouse to store and manage raw, intermediate, and transformed data.
 - dbt (Data Build Tool): Handles SQL-based data transformations and testing within Snowflake.
