@@ -7,15 +7,28 @@ This project implements a modern data pipeline leveraging dbt for SQL-based data
 
 #### Key Componentes
 
-1. Snowflake: Acts as the cloud data warehouse to store and manage raw, intermediate, and transformed data.
-2. dbt (Data Build Tool): Purpose: Enables SQL-based transformations with a focus on modularity, maintainability, and transparency.
+1. Snowflake: Purpose: A cloud-based data warehouse used for storing and querying both raw and transformed datasets.
+Features:
+
+    - Highly performant for large-scale data processing.
+    - Scalable storage and compute resources.
+    - Native support for dbt, simplifying integration and data management.
+   
+3. DBT (Data Build Tool): Purpose: Enables SQL-based transformations with a focus on modularity, maintainability, and transparency.
 Features:
 
     - Data transformations are written in SQL and version-controlled.
     - Supports automated documentation and testing.
     - Includes a library of pre-built macros like dbt_utils for enhanced functionality.
-- Apache Airflow: Orchestrates the pipeline, scheduling tasks, and ensuring dependencies are met.
-- Astro CLI: 
+      
+4. Apache Airflow: Purpose: Provides orchestration and scheduling for the pipeline, ensuring tasks are executed in the correct order and retried upon failure.
+Features:
+
+    - DAGs (Directed Acyclic Graphs) define workflows.
+    - Scalable and extensible architecture for managing complex pipelines.
+    - Integrates seamlessly with dbt through providers like cosmos.
+      
+5.  Astro CLI: 
 
 #### Setup Instructions
 
