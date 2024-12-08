@@ -5,3 +5,8 @@ This project implements a data pipeline leveraging dbt for data transformation, 
 
 ---
 
+#### Techonologies
+
+- Snowflake: Acts as the cloud data warehouse to store and manage raw, intermediate, and transformed data.
+- dbt (Data Build Tool): Handles SQL-based data transformations and testing within Snowflake.
+- Apache Airflow: Orchestrates the pipeline, scheduling tasks, and ensuring dependencies are met.
